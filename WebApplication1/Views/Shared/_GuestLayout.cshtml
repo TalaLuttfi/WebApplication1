@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login & Sign Up</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .navbar {
+            background-color: #fff; 
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        .navbar-brand img {
+            height: 60px; /* Adjust the height as needed */
+        }
+
+        .navbar-buttons {
+            display: flex;
+        }
+
+            .navbar-buttons button {
+                background-color: black;
+                border: none;
+                outline: none;
+                color: #fff;
+                font-size: 16px;
+                padding: 10px 20px;
+                margin-left: 20px;
+                cursor: pointer;
+                border-radius: 5px;
+                transition: background-color 0.3s;
+            }
+
+                .navbar-buttons button:hover {
+                    background-color:black ;
+                }
+    </style>
+</head  >
+<body>
+    <div class="navbar">
+        <a href="#" class="navbar-brand"><img src="/images/logo.jpg" alt="Logo"></a>
+        <div class="navbar-buttons">
+            <button onclick="location.href='https://localhost:7074/LoginAndRegister/Register'">Register</button>
+            <button onclick="location.href='https://localhost:7074/LoginAndRegister/Index'">Login</button>
+        </div>
+    </div>
+ 
+
+    @RenderBody()
+
+</body>
+</html>

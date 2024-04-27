@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="wwwroot\Home\.vs\VSWorkspaceState.json" />
+    <Content Include="wwwroot\LoginAndRegisterAssets\css\.vs\VSWorkspaceState.json" />
+    <Content Include="wwwroot\LoginAndRegisterAssets\fonts\.vs\VSWorkspaceState.json" />
+    <Content Include="wwwroot\LoginAndRegisterAssets\images\.vs\VSWorkspaceState.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\Home\.vs\slnx.sqlite" />
+    <None Include="wwwroot\Home\.vs\tasteit-master\config\applicationhost.config" />
+    <None Include="wwwroot\Home\.vs\tasteit-master\FileContentIndex\6a2ce7d0-dad3-44ec-8cf2-94cb8a2c32c1.vsidx" />
+    <None Include="wwwroot\Home\.vs\tasteit-master\FileContentIndex\f1c17f17-6a30-424f-b0b2-3fd34294aa18.vsidx" />
+    <None Include="wwwroot\LoginAndRegisterAssets\css\.vs\css\FileContentIndex\91dcab4e-649a-407e-8306-f4304b555062.vsidx" />
+    <None Include="wwwroot\LoginAndRegisterAssets\css\.vs\slnx.sqlite" />
+    <None Include="wwwroot\LoginAndRegisterAssets\fonts\.vs\fonts\FileContentIndex\1c85241c-2471-43fa-ab77-53e8608caa67.vsidx" />
+    <None Include="wwwroot\LoginAndRegisterAssets\fonts\.vs\fonts\FileContentIndex\2451392b-e4f1-4cb0-8b72-a01c5592913f.vsidx" />
+    <None Include="wwwroot\LoginAndRegisterAssets\fonts\.vs\slnx.sqlite" />
+    <None Include="wwwroot\LoginAndRegisterAssets\images\.vs\images\FileContentIndex\a63d6b59-94bb-4a21-9d51-7915ae87023e.vsidx" />
+    <None Include="wwwroot\LoginAndRegisterAssets\images\.vs\slnx.sqlite" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\Home\.vs\tasteit-master\v17\" />
+    <Folder Include="wwwroot\LoginAndRegisterAssets\css\.vs\css\v17\" />
+    <Folder Include="wwwroot\LoginAndRegisterAssets\fonts\.vs\fonts\v17\" />
+    <Folder Include="wwwroot\LoginAndRegisterAssets\images\.vs\images\v17\" />
+  </ItemGroup>
+
+</Project>
